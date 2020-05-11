@@ -79,7 +79,7 @@ function Cell(i, j) {
     this.show = function() {
         var x = this.i * w;
         var y = this.j * w;
-        stroke(255);
+        stroke(255, 255, 25);
 
         if (this.walls[0]) { // top
             line(x    , y    , x + w, y    ); 
